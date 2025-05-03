@@ -4,8 +4,6 @@ description: Type to DeFAI with Capminal.ai
 
 # Welcome to Capminal.ai
 
-Type to DeFAI with **Capminal.ai**!
-
 {% embed url="https://www.capminal.ai/" %}
 
 Powered by [Captain Dackie](https://x.com/captain_dackie), our AI-driven terminal delivers&#x20;
