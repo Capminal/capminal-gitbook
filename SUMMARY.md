@@ -14,7 +14,7 @@
   * [Deploy Clanker Token](capminal/product-features/deploy-clanker-token.md)
   * [Chatbot](capminal/product-features/chatbot.md)
 * [Gas Sponsorship via Paymaster](capminal/gas-sponsorship-via-paymaster.md)
-* [Real-time market insights](capminal/real-time-market-insights.md)
+* [Real-time Market Insights](capminal/real-time-market-insights.md)
 * [Mobile Support](capminal/mobile-support.md)
 
 ## BUSINESS

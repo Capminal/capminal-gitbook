@@ -1,7 +1,7 @@
 ---
-description: Real-time market insights updates
+description: Real-time Market Insights Updates
 ---
 
-# Real-time market insights
+# Real-time Market Insights
 
-If you followed our [@captain\_dackie](https://x.com/captain_dackie) , you are up-to-date with market news. We implemented automatically post whenever BREAKING NEWS come!
+If you’re following our [@captain\_dackie](https://x.com/captain_dackie), you’ll always be up-to-date with the latest market news. We now automatically post whenever there’s BREAKING NEWS!
