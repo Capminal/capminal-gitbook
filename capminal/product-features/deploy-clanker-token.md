@@ -14,7 +14,7 @@ Token can be managed and claim reward on Capminal.ai after deployed. It can also
 
 * `Deploy token Dackie Superchain, symbol DACKIE`
 * `Deploy token Dackie Superchain, symbol DACKIE, buy 1E at init`
-* `Deploy token DS Terminal, symbol CAP with initial buy 1E`
+* `Deploy token Capminal, symbol CAP with initial buy 1E`
 
 You can specific initial buy (optional).
 
