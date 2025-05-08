@@ -1,14 +1,14 @@
 ---
-description: Gas sponsored by Capminal.ai via Coinbase Paymaster
+description: Gas sponsored by Capminal via Coinbase Paymaster
 ---
 
 # Gas Sponsorship via Paymaster
 
 {% hint style="success" %}
-Swap, deploy, transfer tokens on **Capminal.ai** with **gas-free**
+Swap, deploy, transfer tokens on **Capminal** with **gas-free**
 {% endhint %}
 
-Capminal.ai sponsor gas fees for transactions via [Paymaster](https://www.coinbase.com/developer-platform/products/paymaster). Gas sponsored transactions type are below:
+Capminal sponsor gas fees for transactions via [Paymaster](https://www.coinbase.com/developer-platform/products/paymaster). Gas sponsored transactions type are below:
 
 * All **SWAP** transactions
 * All **DEPLOY** transactions

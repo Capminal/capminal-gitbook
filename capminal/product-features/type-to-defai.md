@@ -1,12 +1,12 @@
 # Type to DeFAI
 
 {% hint style="success" %}
-Forget the approve, confirm, etc.. actions, now just send command with **Capminal.ai**
+Forget the approve, confirm, etc.. actions, now just send command with **Capminal**
 {% endhint %}
 
 ## Trading by typing
 
-In Capminal.ai, you just need to command to execute a swap transaction in seconds. There are some example commands that your can refer:
+In Capminal, you just need to command to execute a swap transaction in seconds. There are some example commands that your can refer:
 
 * `Swap 0.1 ETH to DACKIE`
 * `Buy 1000$ of DACKIE by ETH`
@@ -15,7 +15,7 @@ In Capminal.ai, you just need to command to execute a swap transaction in second
 
 ## Trading on social platform (X, Farcaster)
 
-We also support user tag [@captain\_dackie](https://x.com/captain_dackie) on X or Farcaster (coming soon) to command the TRANSFER, SWAP or DEPLOY transaction. But user have to register and deposit fund to [Capminal.ai](https://www.capminal.ai/) account first to start trading on social post.
+We also support user tag [@captain\_dackie](https://x.com/captain_dackie) on X or Farcaster (coming soon) to command the TRANSFER, SWAP or DEPLOY transaction. But user have to register and deposit fund to Capminal account first to start trading on social post.
 
 ## Trading Fee
 

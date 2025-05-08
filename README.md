@@ -1,10 +1,8 @@
 ---
-description: Type to DeFAI with Capminal.ai
+description: Type to DeFAI with Capminal
 ---
 
-# Welcome to Capminal.ai
-
-{% embed url="https://www.capminal.ai/" %}
+# Welcome to Capminal
 
 Powered by [Captain Dackie](https://x.com/captain_dackie), our AI-driven terminal delivers&#x20;
 
@@ -15,4 +13,4 @@ Powered by [Captain Dackie](https://x.com/captain_dackie), our AI-driven termina
 
 Trade smarter, win bigger.
 
-<figure><img src=".gitbook/assets/cap_square_1200x630_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/thumbnail_1200x630.png" alt=""><figcaption></figcaption></figure>

@@ -12,11 +12,11 @@ The Dackie Labs, an anonymous group with three years of experience in the crypto
 
 <details>
 
-<summary><mark style="color:orange;">Capminal.ai - Type to DeFAI</mark></summary>
+<summary>Capminal - Type to DeFAI</summary>
 
-<figure><img src="../.gitbook/assets/cap_square_1000x1000.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/square_pink_white.png" alt="" width="188"><figcaption></figcaption></figure>
 
-Type to DeFAI with Capminal.ai!&#x20;
+Type to DeFAI with Capminal!&#x20;
 
 Powered by Captain Dackie, our AI-driven terminal delivers lightning-fast swaps, secure portfolio control, seamless token deployment and real-time DeFi insights. Trade smarter, win bigger.
 

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Capminal.ai](README.md)
+* [Welcome to Capminal](README.md)
 
 ## GETTING STARTED
 

@@ -4,32 +4,26 @@ description: Guidelines and downloadable Capminal.ai's Brand Assets
 
 # Brand Assets
 
-The Capminal.ai "Brand Assets" provided below are protected by copyright and should only be used in compliance with the specified policy.
+The Capminal "Brand Assets" provided below are protected by copyright and should only be used in compliance with the specified policy.
 
-* The Capminal.ai logos, wordmark & emoji.
-* Capminal.ai name.
+* The Capminal logos, wordmark & emoji.
+* "Capminal" name.
 
 ## Approved Use Cases
 
-You are permitted to utilize Capminal.ai's Brand Assets in the following scenarios:
+You are permitted to utilize Capminal's Brand Assets in the following scenarios:
 
 * When referencing our products and services.
 * When linking to our official website or products, e.g:&#x20;
-  * Trade our token on Capminal.ai
-  * Deploy our token on Capminal.ai
-* When announcing an official partnership, provided you have obtained official approval from a designated member of the Capminal.ai team
+  * Trade our token on Capminal
+  * Deploy our token on Capminal
+* When announcing an official partnership, provided you have obtained official approval from a designated member of the Capminal team
 
 <details>
 
-<summary>Capminal.ai Logo</summary>
+<summary>Capminal Logo</summary>
 
-<figure><img src="../.gitbook/assets/cap_square_1000x1000.png" alt="" width="188"><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/cap_circle_1000x1000.png" alt="" width="188"><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/landscape_blue_logo.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/landscape_white_logo.png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../.gitbook/assets/circle_pink_gray.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/circle_pink_white.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/rectangle_pink_gray.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/rectangle_pink_white.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/rectangle_transparent.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/square_pink_gray.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/square_pink_white (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/square_transparent.png" alt=""><figcaption></figcaption></figure></div>
 
 </details>
 
