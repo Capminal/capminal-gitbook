@@ -17,9 +17,9 @@ In Capminal, you just need to command to execute a swap transaction in seconds. 
 
 We also support user tag [@captain\_dackie](https://x.com/captain_dackie) on X or Farcaster (coming soon) to command the TRANSFER, SWAP or DEPLOY transaction. But user have to register and deposit fund to Capminal account first to start trading on social post.
 
-## Trading Fee
+## Swap Fee
 
-Capminal.ai charge `0.5%` trading fee for each SWAP transaction based on volume.
+Capminal charge `0.5%` swap fee for each SWAP transaction based on volume.
 
-We will begin applying transaction fee reduction models once the product has passed the alpha stage.
+We will begin applying swap fee reduction models once the product has passed the alpha stage.
 
