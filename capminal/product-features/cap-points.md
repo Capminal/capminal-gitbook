@@ -21,9 +21,17 @@ Referrals used to boost your CAP Points. The rules is as follows:
 * The maximum boosted percentage is 20% except how many referrals you have.
 * Your CAP Points will be updated back fill if your boosted percentage increase.
 
+Start inviting your friends by getting your invite code, as shown below.
+
+<div><figure><img src="../../.gitbook/assets/11111 (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/11112 (1).png" alt=""><figcaption></figcaption></figure></div>
+
 ## CAP Points
 
 CAP Points is the points you earn by swapping on Capminal. The rules is as follows:
 
 * 1 USD = 1 CAP Points + x% boosted (maximum 20%)
 * ETH/WETH is NOT calculated in CAP Points
+
+The images below contain tooltips that provide detailed descriptions about Referrals and CAP Points.
+
+<div><figure><img src="../../.gitbook/assets/11114.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/11113.png" alt=""><figcaption></figcaption></figure></div>
