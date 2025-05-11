@@ -13,6 +13,7 @@
   * [Type to DeFAI](capminal/product-features/type-to-defai.md)
   * [Deploy Clanker Token](capminal/product-features/deploy-clanker-token.md)
   * [Chatbot](capminal/product-features/chatbot.md)
+  * [CAP Points](capminal/product-features/cap-points.md)
 * [Gas Sponsorship via Paymaster](capminal/gas-sponsorship-via-paymaster.md)
 * [Real-time Market Insights](capminal/real-time-market-insights.md)
 * [Mobile Support](capminal/mobile-support.md)
