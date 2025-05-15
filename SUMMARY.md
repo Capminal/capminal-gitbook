@@ -18,6 +18,10 @@
 * [Real-time Market Insights](capminal/real-time-market-insights.md)
 * [Mobile Support](capminal/mobile-support.md)
 
+## CAP TOKEN
+
+* [Tokenomics](cap-token/tokenomics.md)
+
 ## BUSINESS
 
 * [Brand Assets](business/brand-assets.md)
