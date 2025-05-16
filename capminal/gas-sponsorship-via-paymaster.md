@@ -12,4 +12,5 @@ Capminal sponsor gas fees for transactions via [Paymaster](https://www.coinbase.
 
 * All **SWAP** transactions
 * All **DEPLOY** transactions
+* All **MULTISEND** transactions
 * All **TRANSFER** transactions of (just only) **DACKIE** token
