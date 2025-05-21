@@ -9,7 +9,7 @@ Points systems are always a great way to attract more users—that’s why we de
 The rules for participating in CAP Points are simple and easy to understand, just based on referrals and volume.
 
 {% hint style="success" %}
-**CAP Points** will be used for future **airdrop**
+**CAP Points** will be used for future **AIRDROP**, refer [Tokenomics](../../cap-token/tokenomics.md)
 {% endhint %}
 
 ## Referrals
