@@ -43,10 +43,9 @@ To visualize the vesting schedule, refer this diagram.
 
 When designing the use cases for Capminal (CAP), our focus is on increasing scarcity and reducing the supply of CAP over time. Here are the key use cases:
 
+* Staking on [Virtuals Agent Staking](https://app.virtuals.io/stake-agent?id=23397) to earn Virgen Points and CAP Points
 * Monthly buyback and burn of CAP using trading fees and Clanker UI fees.
-* CAP will serve as the main payment token within the Capminal ecosystem:
+* Main payment token within the Capminal ecosystem:
   * Use CAP for VIP subscriptions to enjoy reduced trading fees and access to priority features.
   * CAP will be used for future service payments (details to be announced).
-* Hold CAP to receive airdrops from partner projects.
-* CAP will be fully supported by DackieSwap Yield Farming.
-* Use CAP for governance.
+* Vote DAO Governance
