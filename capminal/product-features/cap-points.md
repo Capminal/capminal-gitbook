@@ -8,24 +8,48 @@ Points systems are always a great way to attract more users—that’s why we de
 
 The rules for participating in CAP Points are simple and easy to understand, just based on referrals and volume.
 
+## Swap Points
+
+Swap Points is the points you earn by swapping on Capminal. The rules is as follows:
+
+* 1 USD = 1 Swap Points.
+* ETH/WETH is NOT calculated in Swap Points.
+
+{% hint style="success" %}
+If you swap **CAP Tokens**, you will receive **25%** more swap points compared to swapping other tokens.
+{% endhint %}
+
+## Staking Points
+
+Staking Points is the points you earn by staking CAP on [Virtuals Agent Staking](https://app.virtuals.io/stake-agent?id=23397). The rules is as follows:
+
+* Stake 500 CAP = 1 Staking Points / day
+
+{% hint style="warning" %}
+If you unstake your position, you will stop receiving Staking Points, even though your CAP will remain in the 14-day unstaking period. Please keep this in mind.
+{% endhint %}
+
 ## CAP Points
 
 {% hint style="success" %}
-**CAP Points** will be used for **CAP** **airdrop**, refer [Tokenomics](../../cap-token/tokenomics.md) here!
+**CAP Points** will be used for **CAP** **airdrop (** refer [Tokenomics](../../cap-token/tokenomics.md) ) and future campaigns.
 {% endhint %}
 
-CAP Points is the points you earn by swapping on Capminal. The rules is as follows:
+CAP Points are calculated as follows:
 
-* 1 USD = 1 CAP Points + x% boosted (maximum 20%)
-* ETH/WETH is NOT calculated in CAP Points
+* CAP Points = ( Swap Points + Staking Points ) \* ( 1 + Boost)
 
-The images below contain tooltips that provide detailed descriptions about Referrals and CAP Points.
+```
+Example: 
+- Your Swap Points = 1000 
+- Your Staking Points = 1000
+- Your Boosted = 20%
+=> Your CAP Points = (1000 + 1000) * 120% = 2400 
+```
 
-<div><figure><img src="../../.gitbook/assets/cappoint01.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/cappoint02.png" alt=""><figcaption></figcaption></figure></div>
+## Referrals and Boost
 
-## Referrals
-
-Referrals used to boost your CAP Points. The rules is as follows:
+Referrals represent the number of users you have invited. This number is used to boost your CAP Points. The rules are as follows:
 
 * Each referral has swap volume greater than 10 USD will be 1% boosted percentage.
 * There are no limit for the number of referrals you can invite.
