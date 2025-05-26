@@ -21,7 +21,13 @@ If you swap **CAP Tokens**, you will receive **25%** more swap points compared t
 
 ## Staking
 
-Staking Points is the points you earn by staking CAP on [Virtuals Agent Staking](https://app.virtuals.io/stake-agent?id=23397). The rules is as follows:
+Staking Points is the points you earn by staking CAP on [Virtuals Agent Staking](https://app.virtuals.io/stake-agent?id=23397). Capminal Wallet is a smart contract wallet linked to your social account, so to earn CAP Points by staking CAP on the Virtual side, you need to connect your external wallet to your Capminal account. You can find the connect option in the images below.
+
+<div><figure><img src="../../.gitbook/assets/stake001.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/stake002.png" alt=""><figcaption></figcaption></figure></div>
+
+<div><figure><img src="../../.gitbook/assets/stake003.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/stake004.png" alt=""><figcaption></figcaption></figure></div>
+
+The rules is as follows:
 
 * Stake 500 CAP = 1 Staking Points / day
 
@@ -32,20 +38,22 @@ If you unstake your position, you will stop receiving Staking Points, even thoug
 ## CAP Points
 
 {% hint style="success" %}
-**CAP Points** will be used for **CAP** **airdrop (** refer [Tokenomics](../../cap-token/tokenomics.md) ) and future campaigns.
+**CAP Points** will be used for **CAP** **airdrop** ( refer [Tokenomics](../../cap-token/tokenomics.md) ) and future campaigns.
 {% endhint %}
 
 CAP Points are calculated as follows:
 
 * CAP Points = ( Swap Points + Staking Points ) \* ( 1 + Boost)
 
-```
-Example: 
-- Your Swap Points = 1000 
-- Your Staking Points = 1000
-- Your Boosted = 20%
-=> Your CAP Points = (1000 + 1000) * 120% = 2400 
-```
+{% hint style="info" %}
+Example:
+
+* Your Swap Points = 1000
+* Your Staking Points = 1000
+* Your Boosted = 20%
+
+\=> Your CAP Points = (1000 + 1000) \* 120% = 2400
+{% endhint %}
 
 ## Referrals and Boost
 
