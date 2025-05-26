@@ -21,7 +21,11 @@ If you swap **CAP Tokens**, you will receive **25%** more swap points compared t
 
 ## Staking
 
-Staking Points is the points you earn by staking CAP on [Virtuals Agent Staking](https://app.virtuals.io/stake-agent?id=23397). Capminal Wallet is a smart contract wallet linked to your social account, so to earn CAP Points by staking CAP on the Virtual side, you need to connect your external wallet to your Capminal account. You can find the connect option in the images below.
+Staking Points is the points you earn by staking CAP on Virtuals Agent Staking, first you need to go to [staking page on Virtuals](https://app.virtuals.io/stake-agent?id=23397), make sure you already own CAP in your external wallet (main wallet). Then input amount of CAP you want to stake and Approve - Confirm. You can check your staking position in [Virtuals profile page](https://app.virtuals.io/profile).&#x20;
+
+<div><figure><img src="../../.gitbook/assets/stake005.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/stake006.png" alt=""><figcaption></figcaption></figure></div>
+
+Capminal Wallet is a smart contract wallet linked to your social account, so to earn CAP Points by staking CAP on the Virtual side, you need to connect your external wallet that just stake CAP above to your Capminal account. You can find the connect option in the images below.
 
 <div><figure><img src="../../.gitbook/assets/stake001.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/stake002.png" alt=""><figcaption></figcaption></figure></div>
 
