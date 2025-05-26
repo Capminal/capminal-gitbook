@@ -8,7 +8,7 @@ Points systems are always a great way to attract more users—that’s why we de
 
 The rules for participating in CAP Points are simple and easy to understand, just based on referrals and volume.
 
-## Swap Points
+## Swap
 
 Swap Points is the points you earn by swapping on Capminal. The rules is as follows:
 
@@ -19,7 +19,7 @@ Swap Points is the points you earn by swapping on Capminal. The rules is as foll
 If you swap **CAP Tokens**, you will receive **25%** more swap points compared to swapping other tokens.
 {% endhint %}
 
-## Staking Points
+## Staking
 
 Staking Points is the points you earn by staking CAP on [Virtuals Agent Staking](https://app.virtuals.io/stake-agent?id=23397). The rules is as follows:
 
