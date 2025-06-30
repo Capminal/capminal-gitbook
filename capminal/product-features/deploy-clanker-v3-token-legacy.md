@@ -2,7 +2,11 @@
 description: Caminal is a Clanker UI
 ---
 
-# Deploy Clanker Token
+# Deploy Clanker V3 Token (legacy)
+
+{% hint style="warning" %}
+Deploy Clanker V3 on Capminal is legacy nowm, currently, Capminal deploy Clanker V4 token. But if you have old Clanker V3 token you can still claim reward on Capminal UI.
+{% endhint %}
 
 ## Introduction
 

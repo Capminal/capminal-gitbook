@@ -16,13 +16,14 @@ Clanker V4 has been released with numerous exciting features, enabling flexible 
 
 ## What types of configurations does Capminal support
 
-Since Capminal is an AI Agent and users will deploy tokens via prompting on our client, we have simplified the configuration process for launching Clanker V4 tokens.&#x20;
+Since Capminal is an AI Agent and users will deploy tokens via prompting on our client, we make it more simple for our users to launch tokn, currently we simplified the configuration process for launching Clanker V4 tokens.&#x20;
 
-We will allow customization of the following two configurations:
+We will allow customization of the following 3 configurations:
 
 1. **Pool Fee (default: 1%)**: Supports configuration from **1%** to **10%** and only supports static hooks (applying the same fee across all liquidity).
 2. **Initial Buy (default: zero)**: Allows creators to execute the first transaction with a specified amount of ETH.
-3. **Reward Recipient:** Currently, when fees are generated from a transaction, we maintain three fixed reward recipients: **Clanker Team** (currently fixed 0.2% at protocol level), Capminal Team, and Creator. We will support configuring additional reward recipients in the future.
+3. **Market Cap (default: high | 10 ETH**): Allows creators to create token with 3 level of market cap, "low" | 1E, "medium" | 5E and "high" | 10E, default value if user don't specify market cap is "high" | 10E
+4. **Reward Recipient (cannot modify):** Currently, when fees are generated, we maintain three fixed reward recipients: **Clanker Team** (currently fixed 0.2% at protocol level), Capminal Team, and Creator. We will support configuring additional reward recipients in the future.
 
 {% hint style="warning" %}
 We have observed that pool fees above 10% are highly risky for swappers. We recommend deploying tokens with a **1%** to **3%** fee. A 10% fee means that when a user swaps $1000, they pay $100 in fees, which discourages swapping, especially in specific cases.
@@ -40,6 +41,10 @@ Deploy token Capminal, token symbol CAP, with pool fee is 3%
 
 ```
 Deploy token DackieVerse, token symbol VERSE then initial buy 1 ETH
+```
+
+```
+Deploy token Clanker, token symbol CLANKER, pool fee is 10%, with low market cap
 ```
 
 ## Fee Structure
