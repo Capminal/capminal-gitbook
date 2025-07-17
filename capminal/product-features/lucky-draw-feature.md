@@ -39,6 +39,8 @@ Both creator and participants must have Capminal account before create Lucky Dra
 
 3️⃣ If the number of participants does not reach the maximum number of winners, participants will still receive rewards, and the remaining amount will be refunded to the lucky draw creator.
 
+4️⃣ When lucky draw creator prompt the post, you should place the instruction at first to make sure Captain can read your full content, the remain content keep as next.
+
 ### For participants
 
 1️⃣ Ensure you have a Capminal account before completing tasks and commenting.
@@ -48,6 +50,8 @@ Both creator and participants must have Capminal account before create Lucky Dra
 3️⃣ If you fail to complete the tasks before commenting, your entry will not be recorded (Captain will not notify to avoid spam).
 
 4️⃣ Spam accounts may not record as entry.
+
+5️⃣ You must need Captain confirm to the Lucky Draw post first, then comment later. If you command before Captain confirm, your entry cannot be recorded.
 
 ## Examples
 

@@ -21,9 +21,10 @@ Your airdrop post should include the following information:
 
 ## **Notes**
 
-1. Remind your users to register a Capminal account first, as tokens will be sent directly to their Capminal accounts.
-2. The airdrop post becomes active once you receive a “ready” confirmation from Captain. If you reply sooner than confirm message from Captain, you maybe doesn't receive airdrop.
-3. Captain will only respond to users who receive the airdrop. Due to high comment volume, responding first does not guarantee being handled first, please be happy if you don’t get an airdrop.
+1. When airdrop creator prompt the post, you should place the instruction at first to make sure Captain can read your full content, the remain content keep as next.
+2. Remind your users to register a Capminal account first, as tokens will be sent directly to their Capminal accounts.
+3. The airdrop post becomes active once you receive a “ready” confirmation from Captain. If you reply sooner than confirm message from Captain, you maybe doesn't receive airdrop.
+4. Captain will only respond to users who receive the airdrop. Due to high comment volume, responding first does not guarantee being handled first, please be happy if you don’t get an airdrop.
 
 ## Example
 
