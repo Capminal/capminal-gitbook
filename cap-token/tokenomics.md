@@ -33,11 +33,11 @@ We focus on the long-term vision for our CAP token, with these key highlights:
 
 To visualize the vesting schedule, refer this diagram.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-05-16 at 16.21.47.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-08-26 at 22.56.46.png" alt=""><figcaption></figcaption></figure>
 
 ## Public CAP Received Addreses
 
-<table><thead><tr><th width="243.8359375">#</th><th>Address</th></tr></thead><tbody><tr><td>VIRTUAL Stakers &#x26; Yappers</td><td>0xa3689Fb0383561A44817748737B4Bc6940AAFaCe<br>0x7d4e7909EdC4b855c1d5dfEd9d144933dbe9d915</td></tr><tr><td>CAP Points</td><td>0x2c67Ff55Fe5171bBE1d5007480b637aF2f2A342E</td></tr><tr><td>DACKIE Premium</td><td>0x06083870461fb1bFD52eB1CC2D3c3b00bF4aCb9d</td></tr></tbody></table>
+<table><thead><tr><th width="243.8359375">#</th><th>Address</th></tr></thead><tbody><tr><td>VIRTUAL Stakers &#x26; Yappers</td><td>0xa3689Fb0383561A44817748737B4Bc6940AAFaCe</td></tr><tr><td>CAP Points</td><td>0x2c67Ff55Fe5171bBE1d5007480b637aF2f2A342E</td></tr><tr><td>DACKIE Premium</td><td>0x06083870461fb1bFD52eB1CC2D3c3b00bF4aCb9d</td></tr></tbody></table>
 
 ## Use cases
 
