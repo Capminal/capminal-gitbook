@@ -32,5 +32,6 @@
 
 ## Archived
 
-* [Gas Sponsorship via Paymaster (deprecated)](archived/gas-sponsorship-via-paymaster-deprecated.md)
-* [Deploy Clanker V3 Token (legacy)](archived/deploy-clanker-v3-token-legacy.md)
+* [Deprecated Zone](archived/deprecated-zone/README.md)
+  * [Gas Sponsorship via Paymaster (deprecated)](archived/deprecated-zone/gas-sponsorship-via-paymaster-deprecated.md)
+  * [Deploy Clanker V3 Token (legacy)](archived/deprecated-zone/deploy-clanker-v3-token-legacy.md)
