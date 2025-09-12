@@ -47,7 +47,7 @@ To buy or sell a token, we can paste the address to the chat, and the control pl
 
 ### 4. Wallet Menu
 
-In walet menu, you can retrieve your invite link, your Capminal Wallet Address, and can withdraw your ETH also.
+In wallet menu, you can retrieve your invite link, your Capminal Wallet Address, and can withdraw your ETH also.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 11.17.27.png" alt=""><figcaption></figcaption></figure>
 
