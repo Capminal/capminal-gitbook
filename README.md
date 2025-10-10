@@ -4,14 +4,6 @@ description: Type to DeFAI with Capminal
 
 # Welcome to Capminal
 
-Powered by [Captain Dackie](https://x.com/captain_dackie), our AI-driven terminal delivers&#x20;
-
-* Launchpad for gems
-* Lightning-fast swaps
-* Secure portfolio control
-* Seamless token deployment
-* Real-time DeFi insights
-
-Trade smarter, win bigger.
+Capminal is your DeFAI Terminal, powered by our built-in AI Agent Captain Dackie. Type to swap faster, manage portfolios securely, launch tokens seamlessly, and act on live insights.
 
 <figure><img src=".gitbook/assets/thumbnail_1200x630.png" alt=""><figcaption></figcaption></figure>
