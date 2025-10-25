@@ -21,6 +21,8 @@
   * [Smart DCA Feature](capminal/product-features/smart-dca-feature.md)
   * [Trading Fee](capminal/product-features/trading-fee.md)
 * [Real-time Insight Update](capminal/real-time-insight-update.md)
+* [x402](capminal/x402/README.md)
+  * [Reseach API](capminal/x402/reseach-api.md)
 * [Mobile Support](capminal/mobile-support.md)
 
 ## CAP TOKEN
