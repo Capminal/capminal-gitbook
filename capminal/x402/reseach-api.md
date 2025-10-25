@@ -1,5 +1,5 @@
 ---
-description: Capminal x402 Research API
+description: Capminal x402 AI‑powered Token Deep Research API
 ---
 
 # Reseach API
