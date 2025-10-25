@@ -39,7 +39,7 @@ x402 extends HTTP 402 Payment Required to gate API access with onchain micropaym
 * Settlement on Base mainnet in USDC for low fees and speed
 
 {% hint style="success" %}
-Currently we are using Coinbase CDP's x402 facilitator to verify partner transactions, read detail →  [**HERE**](https://docs.cdp.coinbase.com/x402/welcome)
+We are using Coinbase CDP's x402 facilitator to verify partner transactions, read detail [**HERE**](https://docs.cdp.coinbase.com/x402/welcome)
 {% endhint %}
 
 ## Where it’s used
