@@ -44,7 +44,7 @@ We are using Coinbase CDP's x402 facilitator to verify partner transactions, rea
 
 ## Where it’s used
 
-**x402 API host endpoint:**  `https://capminal/api/x402/`
+**x402 API host endpoint:**  `https://capminal.ai/api/x402/`
 
 1. `GET ${host}/research` — Token research with AI deep search analysis (x402‑protected).
 2. T.B.U (we will release soon)

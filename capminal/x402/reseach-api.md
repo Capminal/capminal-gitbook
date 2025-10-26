@@ -8,7 +8,7 @@ AI‑powered token deep research delivered on demand, paid per request via x402.
 
 ## Endpoint
 
-* Host: `https://capminal/api/x402/`
+* Host: `https://capminal.ai/api/x402/`
 * Method: `GET`
 * Path: `/research`
 
@@ -35,7 +35,7 @@ AI‑powered token deep research delivered on demand, paid per request via x402.
 
 ```bash
 curl -X GET \
-  'https://capminal/api/x402/research?chainId=8453&tokenAddress=0xdAC17F958D2ee523a2206206994597C13D831ec7'
+  'https://capminal.ai/api/x402/research?chainId=8453&tokenAddress=0xdAC17F958D2ee523a2206206994597C13D831ec7'
 ```
 
 Example 402 response (shape may include additional fields):
@@ -66,7 +66,7 @@ Example 402 response (shape may include additional fields):
 ```bash
 curl -X GET \
   -H 'X-PAYMENT: <facilitator-payment-proof>' \
-  'https://capminal/api/x402/research?chainId=8453&tokenAddress=0xdAC17F958D2ee523a2206206994597C13D831ec7'
+  'https://capminal.ai/api/x402/research?chainId=8453&tokenAddress=0xdAC17F958D2ee523a2206206994597C13D831ec7'
 ```
 
 Success (200) response:
@@ -94,7 +94,7 @@ Success (200) response:
 
 ## Errors
 
-* `400 Bad Request`: Missing/invalid `chainId` or `tokenAddress`
+* `400 Bad Request`: Missing/invalid `chainId` or `tokenAddress`&#x20;
 * `402 Payment Required`: Missing/invalid payment or not yet paid
 * `503 Service Unavailable`: Upstream data source temporarily unavailable
 
