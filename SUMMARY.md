@@ -23,6 +23,7 @@
 * [Real-time Insight Update](capminal/real-time-insight-update.md)
 * [x402](capminal/x402/README.md)
   * [Reseach API](capminal/x402/reseach-api.md)
+  * [Clanker Deploy API](capminal/x402/clanker-deploy-api.md)
 * [Mobile Support](capminal/mobile-support.md)
 
 ## CAP TOKEN
