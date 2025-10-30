@@ -10,5 +10,4 @@ description: Capminal | Type to DeFAI
 
 ## Our Architecture
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-10-19 at 21.50.47.png" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
