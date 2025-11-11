@@ -5,7 +5,7 @@ description: Captain Dackie Telegram Bot
 # Telegram Bot
 
 {% hint style="success" %}
-Note that trading on Telegram bot also receive [CAP Points](cap-points.md).
+Note that trading on Telegram bot also receive [CAP Points](cap-xp.md).
 {% endhint %}
 
 ## Introduction

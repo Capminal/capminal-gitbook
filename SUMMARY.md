@@ -13,7 +13,7 @@
   * [Capminal Agent](capminal/product-features/capminal-agent.md)
   * [Capminal Gems](capminal/product-features/capminal-gems.md)
   * [Telegram Bot](capminal/product-features/telegram-bot.md)
-  * [CAP Points](capminal/product-features/cap-points.md)
+  * [CAP XP](capminal/product-features/cap-xp.md)
   * [Deploy Clanker V4 Token](capminal/product-features/deploy-clanker-v4-token.md)
   * [Airdrop Feature](capminal/product-features/airdrop-feature.md)
   * [Lucky Draw Feature](capminal/product-features/lucky-draw-feature.md)
