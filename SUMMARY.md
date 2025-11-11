@@ -17,7 +17,6 @@
   * [Deploy Clanker V4 Token](capminal/product-features/deploy-clanker-v4-token.md)
   * [Airdrop Feature](capminal/product-features/airdrop-feature.md)
   * [Lucky Draw Feature](capminal/product-features/lucky-draw-feature.md)
-  * [Chatbot Feature](capminal/product-features/chatbot-feature.md)
   * [Smart DCA Feature](capminal/product-features/smart-dca-feature.md)
   * [Trading Fee](capminal/product-features/trading-fee.md)
 * [Real-time Insight Update](capminal/real-time-insight-update.md)
@@ -41,3 +40,4 @@
 * [Deprecated Zone](archived/deprecated-zone/README.md)
   * [Gas Sponsorship via Paymaster (deprecated)](archived/deprecated-zone/gas-sponsorship-via-paymaster-deprecated.md)
   * [Deploy Clanker V3 Token (legacy)](archived/deprecated-zone/deploy-clanker-v3-token-legacy.md)
+  * [Chatbot Feature](archived/deprecated-zone/chatbot-feature.md)
