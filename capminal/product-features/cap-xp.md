@@ -19,11 +19,9 @@ Swap XP is the XP you earn by swapping on Capminal. The rules is as follows:
 If you swap **CAP** token, you will receive **35%** more Swap XP compared to swapping other tokens. For example: swap $100 CAP token = 135 Swap XP
 {% endhint %}
 
-## Staking
+## CAP Staking
 
-{% hint style="warning" %}
-Currenlty not available since legacy staking of Virtuals was closed. New CAP Staking on Capminal side is implementing
-{% endhint %}
+
 
 ## Total CAP XP
 

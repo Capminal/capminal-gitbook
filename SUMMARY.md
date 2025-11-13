@@ -12,6 +12,7 @@
   * [Capminal Wallet](capminal/product-features/capminal-wallet.md)
   * [Capminal Agent](capminal/product-features/capminal-agent.md)
   * [Capminal Gems](capminal/product-features/capminal-gems.md)
+  * [CAP Staking](capminal/product-features/cap-staking.md)
   * [Telegram Bot](capminal/product-features/telegram-bot.md)
   * [CAP XP](capminal/product-features/cap-xp.md)
   * [Deploy Clanker V4 Token](capminal/product-features/deploy-clanker-v4-token.md)
