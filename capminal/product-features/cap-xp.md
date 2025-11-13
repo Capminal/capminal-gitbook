@@ -8,7 +8,7 @@ The rules to earn CAP XP are simple and easy to understand, just based on referr
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-## Swap
+## Swap XP
 
 Swap XP is the XP you earn by swapping on Capminal. The rules is as follows:
 
@@ -19,10 +19,10 @@ Swap XP is the XP you earn by swapping on Capminal. The rules is as follows:
 If you swap **CAP** token, you will receive **35%** more Swap XP compared to swapping other tokens. For example: swap $100 CAP token = 135 Swap XP
 {% endhint %}
 
-## CAP Staking
+## CAP Staking XP
 
 {% hint style="info" %}
-Please refer [CAP Staking](cap-xp.md#cap-staking) feature to learn how to stake CAP on Capminal, what is 'Shares'
+Please refer [CAP Staking](cap-staking.md) feature to learn how to stake CAP on Capminal, what is 'Shares'
 {% endhint %}
 
 After you stake CAP, your Staking XP will automatically increase every day according to the following formula.
@@ -38,7 +38,7 @@ Example:
 {% endhint %}
 
 {% hint style="warning" %}
-Adjustment factor will be adjust in the future to match with CAP USD price
+The adjustment factor may be revised monthly in the future based on the weighting between trading volume and staking.
 {% endhint %}
 
 ## Total CAP XP

@@ -12,9 +12,9 @@ CAP Staking is a token locking mechanism that rewards you with shares based on h
 
 * **More Longer More Shares**: Lock your tokens longer to get a higher multiplier (up to 5x)
 * **Simple Process**: Easy to stake and unstake your tokens
-* **Earn CAP XP**: First use case of CAP Staking is earning [CAP XP](cap-xp.md)
+* **Earn CAP XP**: The first use case of CAP Staking is earning [CAP XP](cap-xp.md)
 
-{% hint style="success" %}
+{% hint style="info" %}
 There will be more use cases when staking **CAP** besides earning CAP XP. T.B.U soon
 {% endhint %}
 
@@ -84,11 +84,13 @@ The multiplier increases linearly between 1 week and 96 weeks:
 * Maximum: 5x (96 weeks)
 * The multiplier scales proportionally for any period between 1 and 96 weeks
 
-#### Examples
+{% hint style="info" %}
+Examples:
 
-* **Stake 100 CAP for 1 week**: Receive 100 shares (1x multiplier)
-* **Stake 100 CAP for 48 weeks**: Receive approximately 300 shares (3x multiplier)
-* **Stake 100 CAP for 96 weeks**: Receive 500 shares (5x multiplier)
+* Stake 100 CAP for 1 week: Receive 100 shares (1x multiplier)
+* Stake 100 CAP for 48 weeks: Receive approximately 300 shares (3x multiplier)
+* Stake 100 CAP for 96 weeks: Receive 500 shares (5x multiplier)
+{% endhint %}
 
 #### Choosing Your Lock Period
 
