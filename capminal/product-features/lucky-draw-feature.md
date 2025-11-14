@@ -4,6 +4,10 @@ description: Easily to setup a Lucky Draw thread.
 
 # Lucky Draw Feature
 
+{% hint style="warning" %}
+The feature is temporarily disabled as we are upgrading Captain Dackie X Client.
+{% endhint %}
+
 This feature helps creators easily set up a Lucky Draw thread that asks participants to complete simple social tasks, then automatically selects winners at random and distributes rewards.
 
 <figure><img src="../../.gitbook/assets/luckydraw001.png" alt="Lucky Draw Example Prompt"><figcaption><p>Lucky Draw Example Prompt</p></figcaption></figure>

@@ -4,6 +4,8 @@ description: What is CAP Staking, how to stake, everything you need to know
 
 # CAP Staking
 
+<figure><img src="../../.gitbook/assets/cap_staking_live_paragraph.png" alt=""><figcaption></figcaption></figure>
+
 ## What is CAP Staking?
 
 CAP Staking is a token locking mechanism that rewards you with shares based on how long you commit to locking your tokens. When you stake your CAP tokens, you receive shares that are calculated using a multiplier system. The longer your lock period, the higher your multiplier, which means more shares for the same amount of tokens.
