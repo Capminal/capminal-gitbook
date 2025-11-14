@@ -42,9 +42,27 @@ Each Capminal account just can have 1 CAP staking position
 
 #### How to Stake
 
+Using Capminal Web UI.
+
 1. **Choose Your Amount**: Decide how many CAP tokens you want to stake
 2. **Select Lock Period**: Choose how long you want to lock your tokens (1-96 weeks)
 3. **Confirm Stake**: Submit your stake transaction
+
+{% hint style="info" %}
+Example:
+
+<img src="../../.gitbook/assets/IMG_2556.jpg" alt="" data-size="original"><img src="../../.gitbook/assets/IMG_2557.jpg" alt="" data-size="original">
+{% endhint %}
+
+#### Prompting to Stake
+
+You can prompt our agent to query your staking position or stake or unstake.
+
+{% hint style="info" %}
+Example:
+
+<img src="../../.gitbook/assets/IMG_2554.jpg" alt="" data-size="original"><img src="../../.gitbook/assets/IMG_2555.jpg" alt="" data-size="original">
+{% endhint %}
 
 #### First-Time Staking
 
