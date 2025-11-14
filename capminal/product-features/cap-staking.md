@@ -142,6 +142,8 @@ Yes, you can add more tokens to your existing stake at any time. Your position w
 
 Yes, you can view all your staking information on Basescan by checking the contract's view functions with your wallet address.
 
+CAP Staking Contract: [0x5635979E66e0340c9182E79fd2ce5d71D1CCA653](https://basescan.org/address/0x5635979E66e0340c9182E79fd2ce5d71D1CCA653)
+
 ## Conclusion
 
 CAP Staking offers a simple and rewarding way to earn shares by locking your CAP tokens. By understanding how lock periods, multipliers, and shares work, you can make informed decisions about your staking strategy. Remember to choose a lock period that aligns with your goals and always verify your stake information before making decisions.
