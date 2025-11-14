@@ -1,5 +1,8 @@
 ---
-description: CAP XP System
+description: >-
+  CAP XP tracks users' Swap Volume, CAP Staking, Referrals, and Boosts on
+  Capminal. Every month, we use protocol fees to buy back CAP and reward top
+  users on the CAP XP leaderboard.
 ---
 
 # CAP XP
@@ -22,7 +25,7 @@ If you swap **CAP** token, you will receive **35%** more Swap XP compared to swa
 ## CAP Staking XP
 
 {% hint style="info" %}
-Please refer [CAP Staking](cap-staking.md) feature to learn how to stake CAP on Capminal, what is 'Shares'
+Please refer [CAP Staking](cap-staking.md) feature to learn how to stake CAP on Capminal, understand Multiplier and Shares
 {% endhint %}
 
 After you stake CAP, your Staking XP will automatically increase every day according to the following formula.

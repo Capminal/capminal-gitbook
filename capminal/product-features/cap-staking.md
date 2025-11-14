@@ -71,7 +71,7 @@ You cannot shorten your lock period in any cases except waiting to unlock time.
 
 <figure><img src="../../.gitbook/assets/cap_staking_simulate.png" alt=""><figcaption></figcaption></figure>
 
-#### Understanding Multipliers
+#### Understanding Multipliers and Shares
 
 Your multiplier determines how many shares you receive for each CAP token you stake. The multiplier scales linearly based on your lock period:
 
