@@ -7,6 +7,22 @@ description: >-
 
 # CAP XP
 
+## What is CAP XP
+
+CAP XP tracks users' Swap Volume, CAP Staking, Referrals, and Boosts on Capminal. Every month, we use protocol fees to buy back CAP and reward top users on the CAP XP leaderboard.
+
+#### Monthly Capminal Protocol Fee Distribution Rate:
+
+<table><thead><tr><th width="575.41015625">#</th><th>Rate</th></tr></thead><tbody><tr><td>Team</td><td>40%</td></tr><tr><td>Buy Back CAP &#x26; Distribute to CAP XP Leaderboard</td><td>30%</td></tr><tr><td>Buy Back CAP &#x26; Burn</td><td>30%</td></tr></tbody></table>
+
+{% hint style="info" %}
+Example:
+
+If Capminal Protocol fee is $5,000 this month
+
+→ CAP XP rewards = 30% \* $5,000 = **$1,500** / this month
+{% endhint %}
+
 The rules to earn CAP XP are simple and easy to understand, just based on referrals and volume.
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
@@ -45,10 +61,6 @@ The adjustment factor may be revised monthly in the future based on the weightin
 {% endhint %}
 
 ## Total CAP XP
-
-{% hint style="info" %}
-**CAP** XP will be used for **CAP** **airdrop** ( refer [Tokenomics](../../cap-token/tokenomics.md) ) **→  it's already DONE**
-{% endhint %}
 
 CAP XP are calculated as follows:
 
