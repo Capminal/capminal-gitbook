@@ -17,8 +17,7 @@ If you want to withdraw your funds, just send command:
 
 Remember to set a **Backup Email** for your wallet. In case you lost your social account, you can use the Backup Email to recover your wallet.
 
-\
-
+<br>
 
 
 

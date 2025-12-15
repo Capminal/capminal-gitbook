@@ -2,7 +2,11 @@
 description: Capminal x402 AI‑powered Token Deep Research API
 ---
 
-# Reseach API
+# Reseach API (paused)
+
+{% hint style="danger" %}
+This API is currently on hold because its response is too slow and not compatible with the x402 standard.
+{% endhint %}
 
 AI‑powered token deep research delivered on demand, paid per request via x402.
 
@@ -20,7 +24,7 @@ AI‑powered token deep research delivered on demand, paid per request via x402.
 
 ## Pricing
 
-* **$0.5 USDC** per successful request on **Base**
+* ~~**$0.5**~~ **$0.01** per successful request on **Base**
 * Query parameters:
   * `chainId` (string, required): EVM chain id. Example: `8453` for Base
   * `tokenAddress` (string, required): Token contract, `0x` + 40 hex chars

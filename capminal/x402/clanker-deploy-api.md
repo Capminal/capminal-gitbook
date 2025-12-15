@@ -25,7 +25,7 @@ Deploy token very easily via API, no auth needed, no account needed, paid per re
 
 ## Pricing
 
-* **$0.5 USDC** per successful request on **Base**
+* **$0.5** per successful request on **Base**
 * Request body (JSON)
   * `chainId` (string, required): EVM chain id. Example: `8453` for Base
   * `name` (string, required): Token name
@@ -131,8 +131,7 @@ Success (200) response:
       "txHash": "0xdeadbeef...",
       "explorerUrl": "https://basescan.org/tx/0xdeadbeef..."
     },
-    "clankerUrl": "https://www.clanker.world/clanker/0xabc...def",
-    "capminalUrl": "https://capminal.ai/base/0xabc...def"
+    "clanker": "https://www.clanker.world/clanker/0xabc...def"
   }
 }
 ```
