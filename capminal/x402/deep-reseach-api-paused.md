@@ -2,7 +2,7 @@
 description: Capminal x402 AI‑powered Token Deep Research API
 ---
 
-# Reseach API (paused)
+# Deep Reseach API (paused)
 
 {% hint style="danger" %}
 This API is currently on hold because its response is too slow and not compatible with the x402 standard.
@@ -12,9 +12,10 @@ AI‑powered token deep research delivered on demand, paid per request via x402.
 
 ## Endpoint
 
-* Host: `https://capminal.ai/api/x402/`
+* Host: `https://www.capminal.ai/api/x402/`
 * Method: `GET`
 * Path: `/research`
+* x402Version: 2
 
 ## Authentication (payment)
 
@@ -39,7 +40,7 @@ AI‑powered token deep research delivered on demand, paid per request via x402.
 
 ```bash
 curl -X GET \
-  'https://capminal.ai/api/x402/research?chainId=8453&tokenAddress=0xdAC17F958D2ee523a2206206994597C13D831ec7'
+  'https://www.capminal.ai/api/x402/research?chainId=8453&tokenAddress=0xdAC17F958D2ee523a2206206994597C13D831ec7'
 ```
 
 Example 402 response (shape may include additional fields):
@@ -70,7 +71,7 @@ Example 402 response (shape may include additional fields):
 ```bash
 curl -X GET \
   -H 'X-PAYMENT: <facilitator-payment-proof>' \
-  'https://capminal.ai/api/x402/research?chainId=8453&tokenAddress=0xdAC17F958D2ee523a2206206994597C13D831ec7'
+  'https://www.capminal.ai/api/x402/research?chainId=8453&tokenAddress=0xdAC17F958D2ee523a2206206994597C13D831ec7'
 ```
 
 Success (200) response:

@@ -21,8 +21,9 @@
   * [Smart DCA Feature](capminal/product-features/smart-dca-feature.md)
   * [Trading Fee](capminal/product-features/trading-fee.md)
 * [x402](capminal/x402/README.md)
+  * [x402 Orchestrator](capminal/x402/x402-orchestrator.md)
   * [Clanker Deploy API](capminal/x402/clanker-deploy-api.md)
-  * [Reseach API (paused)](capminal/x402/reseach-api-paused.md)
+  * [Deep Reseach API (paused)](capminal/x402/deep-reseach-api-paused.md)
 * [Real-time Insight Update](capminal/real-time-insight-update.md)
 * [Mobile Support](capminal/mobile-support.md)
 

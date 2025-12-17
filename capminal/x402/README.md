@@ -8,6 +8,14 @@ coverY: 0
 
 Pay-as-you-go access to premium API features with onchain payments. x402 makes every request simple, transparent, and wallet‑native.
 
+{% hint style="success" %}
+### x402 V2 Upgrade
+
+* As of December 17, 2025, we have upgraded our x402 APIs to version 2 (V2).&#x20;
+* Backward compatibility is supported for clients using version 1 (V1), so existing integrations do not require any changes.&#x20;
+* However, we strongly recommend upgrading to V2 to ensure better compatibility with future x402 API updates.
+{% endhint %}
+
 ## What is x402?
 
 x402 extends HTTP 402 Payment Required to gate API access with onchain micropayments. Your client first gets a 402 with payment instructions, completes a quick wallet payment, then retries the same request with a cryptographic proof in the `X-PAYMENT` header.
@@ -44,7 +52,7 @@ We are using Coinbase CDP's x402 facilitator to verify partner transactions, rea
 
 ## Where it’s used
 
-**x402 API host endpoint:**  `https://capminal.ai/api/x402/`
+**x402 API host endpoint:**  `https://www.capminal.ai/api/x402/`
 
 1. `GET ${host}/research` — Token research with AI deep search analysis (x402‑protected).
 2. T.B.U (we will release soon)

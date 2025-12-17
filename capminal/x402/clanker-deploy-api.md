@@ -13,9 +13,10 @@ Deploy token very easily via API, no auth needed, no account needed, paid per re
 
 ## Endpoint
 
-* Host: `https://capminal.ai/api/x402`
+* Host: `https://www.capminal.ai/api/x402`
 * Method: `POST`
 * Path: `/deploy`
+* x402Version: 2
 
 ## Authentication (payment)
 
@@ -47,7 +48,7 @@ Deploy token very easily via API, no auth needed, no account needed, paid per re
 
 ```bash
 curl -X POST \
-  'https://capminal.ai/api/x402/clanker/deploy' \
+  'https://www.capminal.ai/api/x402/clanker/deploy' \
   -H 'Content-Type: application/json' \
   -d '{
     "chainId": "8453",
@@ -95,7 +96,7 @@ Example 402 response (shape may include additional fields):
 
 ```bash
 curl -X POST \
-  'https://capminal.ai/api/x402/clanker/deploy' \
+  'https://www.capminal.ai/api/x402/clanker/deploy' \
   -H 'Content-Type: application/json' \
   -H 'X-PAYMENT: <facilitator-payment-proof>' \
   -d '{
