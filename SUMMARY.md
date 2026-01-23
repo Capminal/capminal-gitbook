@@ -15,7 +15,7 @@
   * [CAP Staking](capminal/product-features/cap-staking.md)
   * [CAP XP](capminal/product-features/cap-xp.md)
   * [Telegram Bot](capminal/product-features/telegram-bot.md)
-  * [Deploy Clanker V4 Token](capminal/product-features/deploy-clanker-v4-token.md)
+  * [Deploy Clanker Token](capminal/product-features/deploy-clanker-token.md)
   * [Airdrop Feature](capminal/product-features/airdrop-feature.md)
   * [Lucky Draw Feature](capminal/product-features/lucky-draw-feature.md)
   * [Smart DCA Feature](capminal/product-features/smart-dca-feature.md)
