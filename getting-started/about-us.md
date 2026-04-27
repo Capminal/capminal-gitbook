@@ -12,37 +12,15 @@ The Dackie Labs, an anonymous group with three years of experience in the crypto
 
 <details>
 
-<summary>Capminal - Type to DeFAI</summary>
+<summary><mark style="color:blue;"><strong>DackieSwap -</strong></mark><strong> </strong><mark style="color:blue;"><strong>Superior Swaps Through Meta Aggregator</strong></mark></summary>
 
-<figure><img src="../.gitbook/assets/square_pink_white.png" alt="" width="188"><figcaption></figcaption></figure>
+DackieSwap delivers superior swap results as the leading Meta Aggregator of Aggregators. Elevate your DeFi trading experience with DackieSwap — where better execution is the standard.
 
-Capminal is your DeFAI Terminal, powered by our built-in AI Agent Captain Dackie. Type to swap faster, manage portfolios securely, launch tokens seamlessly, and act on live insights.
+Website: [https://dackieswap.xyz](https://dackieswap.xyz/)
 
-Website: [https://capminal.ai/](https://capminal.ai/)
+X: [@DackieSwap](https://x.com/DackieSwap)&#x20;
 
-X: [https://x.com/captain\_dackie](https://x.com/captain_dackie)
-
-Warpcast: [https://warpcast.com/captaindackie](https://warpcast.com/captaindackie)
-
-Telegram Channel: [http://t.me/capminalchannel](http://t.me/capminalchannel)
-
-Telebot: [https://t.me/captaindackiebot](https://t.me/captaindackiebot)
-
-</details>
-
-<details>
-
-<summary>DackieSwap - The AI-Powered Superchain DEX</summary>
-
-<figure><img src="../.gitbook/assets/dackieswap_logo.png" alt="" width="188"><figcaption></figcaption></figure>
-
-DackieSwap is the AI-Powered Superchain DEX for intelligent trading route optimization, ensuring seamless and efficient swaps for users.
-
-Website: [https://dackieswap.xyz/](https://dackieswap.xyz/)
-
-X: [https://x.com/DackieSwap](https://x.com/DackieSwap)&#x20;
-
-Warpcast: [https://warpcast.com/\~/channel/dackieswap](https://warpcast.com/~/channel/dackieswap)
+Farcaster: [https://farcaster.xyz/dackieswap.eth](https://farcaster.xyz/dackieswap.eth)&#x20;
 
 Telegram Channel: [https://t.me/dackieswapchannel](https://t.me/dackieswapchannel)&#x20;
 
@@ -50,18 +28,18 @@ Telegram Channel: [https://t.me/dackieswapchannel](https://t.me/dackieswapchanne
 
 <details>
 
-<summary>DackieVerse - Where Eggs become Legend</summary>
+<summary><mark style="color:$primary;"><strong>Capminal - Type to DeFAI</strong></mark></summary>
 
-<figure><img src="../.gitbook/assets/dackieverse_color.png" alt="" width="188"><figcaption></figcaption></figure>
+Type to DeFAI with Capminal&#x20;
 
-DackieVerse is the magical digital world where eggs become legend, bringing together community and adventure.
+Powered by Captain Dackie, our AI-driven terminal delivers lightning-fast swaps, secure portfolio control, seamless token deployment and real-time DeFi insights. Trade smarter, win bigger.
 
-Opensea: [https://opensea.io/collection/dackieonbaseofficial](https://opensea.io/collection/dackieonbaseofficial)
+Website: [https://capminal.ai/](https://capminal.ai/)
 
-X: [https://x.com/DackieVerse](https://x.com/DackieVerse)
+X: [https://x.com/captain\_dackie](https://x.com/captain_dackie)
 
-Warpcast: [https://warpcast.com/\~/channel/dackie](https://warpcast.com/~/channel/dackie)
+Farcaster: [https://warpcast.com/captaindackie](https://warpcast.com/captaindackie)
 
-Telegram Channel: [https://t.me/dackiechannel](https://t.me/dackiechannel)
+Telegram: [https://t.me/capminalchannel](https://t.me/capminalchannel)
 
 </details>
