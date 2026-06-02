@@ -88,8 +88,6 @@ How the CAP yield works, in plain terms:
 
 > **The key point:** staking CAP earns CAP yield **and** funds your AI Credit at once. Locking your sCAP to mint CAPU does **not** turn off your CAP rewards — you keep both.
 
-> 📸 _**\[Screenshot placeholder — Rewards panel: earned CAP + Claim button]**_
-
 ***
 
 ## How to get CAPU
