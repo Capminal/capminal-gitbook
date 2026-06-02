@@ -7,7 +7,7 @@ description: One key. Every model. Powered by your staked CAPU.
 **OpenCAP Gateway** is a unified **LLM gateway** that lets you create an API key and tap into a wide range of AI models through a single, OpenAI-compatible endpoint:
 
 ```
-https://llm.capminal.ai
+https://gw.capminal.ai
 ```
 
 Instead of juggling separate accounts, billing, and SDKs for every provider, you point your app at one base URL, authenticate with one key, and route requests to whichever model you need.
@@ -65,7 +65,7 @@ After creating your key, here are a few ways to start using OpenCAP Gateway.
 **Base URL**
 
 ```
-https://llm.capminal.ai/api/inference/v1
+https://gw.capminal.ai/v1
 ```
 
 ### Use in Terminal
@@ -73,11 +73,11 @@ https://llm.capminal.ai/api/inference/v1
 ```bash
 export OPENCAP_API_KEY="ocap_..."
 
-curl https://llm.capminal.ai/api/inference/v1/chat/completions \
+curl https://gw.capminal.ai/v1/chat/completions \
   -H "Authorization: Bearer $OPENCAP_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "claude-opus-4.6",
+    "model": "claude-opus-4.8",
     "messages": [{"role": "user", "content": "Hello from OpenCAP"}],
     "stream": true
   }'
@@ -91,13 +91,13 @@ curl https://llm.capminal.ai/api/inference/v1/chat/completions \
   "models": {
     "providers": {
       "opencap": {
-        "baseUrl": "https://llm.capminal.ai/api/inference/v1",
+        "baseUrl": "https://gw.capminal.ai/v1",
         "api": "openai-completions",
         "key": "${OPENCAP_API_KEY}",
         "models": [
           {
-            "id": "claude-opus-4.6",
-            "name": "Claude Opus 4.6",
+            "id": "claude-opus-4.8",
+            "name": "Claude Opus 4.8",
             "contextWindow": 200000,
             "maxTokens": 32000
           }
@@ -107,7 +107,7 @@ curl https://llm.capminal.ai/api/inference/v1/chat/completions \
   },
   "agents": {
     "defaults": {
-      "model": { "primary": "opencap/claude-opus-4.6" }
+      "model": { "primary": "opencap/claude-opus-4.8" }
     }
   }
 }
@@ -121,9 +121,9 @@ OPENCAP_API_KEY=ocap_...
 
 # ~/.hermes/config.yaml
 model:
-  provider: custom:opencap
-  default: claude-opus-4.6
-  base_url: https://llm.capminal.ai/api/inference/v1
+  provider: custom:opencap-gw
+  default: claude-opus-4.8
+  base_url: https://gw.capminal.ai/v1
   api_key: ${OPENCAP_API_KEY}
   api_mode: chat_completions
 ```
