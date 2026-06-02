@@ -16,7 +16,7 @@
     * [AI Terminal](capminal/product-features/cap-interfaces/ai-terminal.md)
     * [Telegram Bot](capminal/product-features/cap-interfaces/telegram-bot.md)
     * [Orbs Market](capminal/product-features/cap-interfaces/orbs-market.md)
-  * [Mint $CAPU](capminal/product-features/mint-usdcapu.md)
+  * [Mint CAPU](capminal/product-features/mint-capu.md)
   * [CAP Guild](capminal/product-features/cap-guild.md)
   * [Token Deployment](capminal/product-features/token-deployment/README.md)
     * [Liquid](capminal/product-features/token-deployment/liquid.md)

@@ -2,7 +2,7 @@
 description: Earn Perpetual AI Compute
 ---
 
-# Mint $CAPU
+# Mint CAPU
 
 {% hint style="info" %}
 **CAPU** is the compute asset of the Capminal. Holding **staked CAPU** gives you a daily allowance of AI Credit on the [OpenCAP Gateway](../opencap/gateway.md), **$1 of AI usage per CAPU, every day,** without ever selling your CAP.
