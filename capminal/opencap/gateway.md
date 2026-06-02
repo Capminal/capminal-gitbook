@@ -13,18 +13,18 @@ https://gw.capminal.ai
 Instead of juggling separate accounts, billing, and SDKs for every provider, you point your app at one base URL, authenticate with one key, and route requests to whichever model you need.
 
 {% hint style="info" %}
-**No subscription. No credit card.** Your daily AI usage is funded by your **staked CAPU** — not a monthly bill.
+**No subscription. No credit card.** Your daily inference usage is funded by your **staked CAPU** — not a monthly bill.
 {% endhint %}
 
 ## How it works
 
 1. **Log in with your wallet.** Connect the wallet that holds your staked CAPU.
-2. **Get daily AI Credit.** Every wallet with **staked CAPU** is granted a daily allowance of AI Credit — **$1 of AI usage per staked CAPU, every day**, renewed at 00:00 UTC. Don't have CAPU yet? See [Mint CAPU](../product-features/mint-capu.md) to learn how to get and stake it.
+2. **Get daily Inference Credit.** Every wallet with **staked CAPU** is granted a daily allowance of Inference Credit — **$1 of inference usage per staked CAPU, every day**, renewed at 00:00 UTC. Don't have CAPU yet? See [Mint CAPU](../product-features/mint-capu.md) to learn how to get and stake it.
 3. **Create a key.** Generate an `OPENCAP_API_KEY` from the dashboard.
-4. **Start building.** Use the key with any OpenAI-compatible client, terminal, or agent framework — your usage draws down your daily AI Credit automatically.
+4. **Start building.** Use the key with any OpenAI-compatible client, terminal, or agent framework — your usage draws down your daily Inference Credit automatically.
 
 {% hint style="success" %}
-AI Credit is tied to your **staked** CAPU. Stake more CAPU → larger daily allowance. Credit resets every day and does **not** roll over.
+Inference Credit is tied to your **staked** CAPU. Stake more CAPU → larger daily allowance. Credit resets every day and does **not** roll over.
 {% endhint %}
 
 ### The full flow at a glance
@@ -34,7 +34,7 @@ flowchart LR
     CAP[💎 CAP<br/>your capital] -->|stake| SCAP[sCAP<br/>staking receipt]
     SCAP -->|lock & mint| CAPU[⚡ CAPU<br/>compute asset]
     BUY([or just buy CAPU]) -.-> CAPU
-    CAPU -->|stake CAPU| CREDIT[💰 AI Credit<br/>$1/day per CAPU]
+    CAPU -->|stake CAPU| CREDIT[💰 Inference Credit<br/>$1/day per CAPU]
 
     W([👤 Wallet login]) --> KEY[🔑 Create key<br/>OPENCAP_API_KEY]
     CREDIT -->|funds usage| KEY
@@ -54,7 +54,7 @@ flowchart LR
     class KEY,APPS key;
 ```
 
-Lock **CAP → sCAP → CAPU** (or simply buy CAPU), stake it to earn daily **AI Credit**, then create an `OPENCAP_API_KEY` and point any AI app at the gateway — every request draws down your daily Credit.
+Lock **CAP → sCAP → CAPU** (or simply buy CAPU), stake it to earn daily **Inference Credit**, then create an `OPENCAP_API_KEY` and point any AI app at the gateway — every request draws down your daily Credit.
 
 ***
 
@@ -131,5 +131,5 @@ model:
 ***
 
 {% hint style="warning" %}
-Keep your `OPENCAP_API_KEY` secret. Anyone with your key can spend your daily AI Credit. You can revoke and regenerate keys at any time from the dashboard.
+Keep your `OPENCAP_API_KEY` secret. Anyone with your key can spend your daily Inference Credit. You can revoke and regenerate keys at any time from the dashboard.
 {% endhint %}
