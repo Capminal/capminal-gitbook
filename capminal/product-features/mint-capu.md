@@ -151,17 +151,18 @@ This section matters only for **Path B** (minting your own CAPU). If you just bu
 CAPU is minted on a **bonding curve**: the more CAPU already exists, the more CAP it costs to mint the next one. This keeps compute supply healthy and rewards early participants.
 
 ```
-mint price  =  baseRate × e^( power × (current supply / target)³ )
+mint price  =  baseRate × e^( power × (current supply ÷ scale)³ )
 CAPU minted  =  CAP locked ÷ mint price
 ```
 
 You don't need the math. Here's what it means in practice with the **current live settings**:
 
-| Setting    |      Live value | Meaning                                                  |
-| ---------- | --------------: | -------------------------------------------------------- |
-| `baseRate` | **334,480 CAP** | Cost to mint 1 CAPU when supply is at zero               |
-| `power`    |           **2** | How sharply the price curves up                          |
-| `target`   |    **300 CAPU** | The economic "knee" — the design target for total supply |
+| Setting    |      Live value | Meaning                                     |
+| ---------- | --------------: | ------------------------------------------- |
+| `baseRate` | **334,480 CAP** | Cost to mint 1 CAPU when supply is at zero   |
+| `power`    |           **2** | How sharply the price curves up             |
+
+> `scale` is a fixed internal curve constant that sets how quickly the price steepens.
 
 <figure><img src="../../.gitbook/assets/capu-mint-curve.png" alt=""><figcaption></figcaption></figure>
 
@@ -172,21 +173,19 @@ You don't need the math. Here's what it means in practice with the **current liv
 
 #### Reading the curve in numbers
 
-| Supply vs target             | Mint price (CAP per CAPU) |  vs. base | Plain meaning             |
-| ---------------------------- | ------------------------: | --------: | ------------------------- |
-| 0% (empty)                   |                   334,480 |     1.00× | Cheapest possible mint    |
-| 25% (75 CAPU)                |                   345,098 |     1.03× | Still basically flat      |
-| 50% (150 CAPU)               |                   429,481 |     1.28× | Starting to rise          |
-| 75% (225 CAPU)               |                   777,689 |     2.33× | Now \~2.3× more expensive |
-| **100% (300 CAPU — target)** |             **2,471,491** | **7.39×** | The "knee" (= base × e²)  |
-| 125% (375 CAPU)              |                16,627,730 |     \~50× | Very expensive            |
-| 150% (450 CAPU)              |               285,665,575 |    \~854× | Effectively a wall        |
+| Total CAPU minted | Mint price (CAP per CAPU) | vs. base | Plain meaning           |
+| ----------------- | ------------------------: | -------: | ----------------------- |
+| 0 (empty)         |                   334,480 |    1.00× | Cheapest possible mint  |
+| 60 CAPU           |                   339,874 |    1.02× | Still basically flat    |
+| 120 CAPU          |                   380,149 |    1.14× | Starting to rise        |
+| 180 CAPU          |                   515,218 |    1.54× | Now noticeably pricier  |
+| 250 CAPU          |                 1,064,140 |    3.18× | Climbing steeply        |
 
 #### **Takeaways for a minter:**
 
-* Below the target, price moves **slowly** — early minters get the best rate.
-* Around the target (300 CAPU) the price hits its **knee** and accelerates hard.
-* Far past the target the curve becomes a **hard ceiling** — the protocol will refuse mints that push the exponent too high. This caps total compute supply by design.
+* Early on, price moves **slowly** — early minters get the best rate.
+* As supply grows, the price **accelerates** — each new CAPU costs more than the last.
+* Eventually the curve becomes a **hard ceiling** — the protocol will refuse mints that push the exponent too high. This caps total compute supply by design.
 
 > 💡 The exact CAP-to-dollar cost depends on the live CAP price, so these are CAP amounts, not fixed USD prices.
 
