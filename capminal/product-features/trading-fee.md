@@ -1,13 +1,28 @@
 ---
-description: Capminal Trading Fee
+description: Capminal trading fee structure for all our clients
 ---
 
 # Trading Fee
 
-Capminal charge  **`0.8%`** swap fee for each SWAP transaction based on volume. This fee applies to all of Capminal's clients including:
+## Capminal Swap Fee
 
-* Captain Dackie on X
+Capminal charges a **0.8% swap fee** on the total transaction volume for every SWAP executed through the Capminal ecosystem.
+
+This fee applies to all Capminal clients, including:
+
+* Captain Dackie (X)
 * AI Terminal
-* Captain Dackie Telebot
-* Capminal Orb
+* Captain Dackie Telegram Bot
 
+## Capminal Orbs Market Fee
+
+Transactions executed through the **Capminal Orbs Market** are subject to a reduced **0.3% swap fee** based on the transaction volume.
+
+The fee is automatically applied to each SWAP transaction at the time of execution.
+
+## Fee Structure
+
+| Product              | Swap Fee                  |
+| -------------------- | ------------------------- |
+| Capminal Clients     | 0.8% per SWAP transaction |
+| Capminal Orbs Market | 0.3% per SWAP transaction |

@@ -16,7 +16,7 @@ When you stake your CAP tokens, you receive shares that are calculated using a *
 
 * **More Longer More Shares**: Lock your tokens longer to get a higher multiplier (up to 5x)
 * **Simple Process**: Easy to stake and unstake your tokens
-* **Earn XP**: The first use case of CAP Staking is earning [XP](cap-guild.md#what-is-xp)
+* **Earn XP**: The first use case of CAP Staking is earning [XP](../../capminal/product-features/cap-guild.md#what-is-xp)
 
 {% hint style="info" %}
 There will be more use cases when staking **CAP** besides earning XP. T.B.U soon

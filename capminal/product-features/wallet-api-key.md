@@ -1,16 +1,16 @@
 ---
 description: >-
-  The CAP API Key system allows users and builders to securely access CAP
-  services through a standardized authentication mechanism
+  The Wallet API Key system allows users and builders to securely access CAP
+  wallet through a standardized authentication mechanism
 ---
 
-# API Key
+# Wallet API Key
 
-## CAP API Key
+## Wallet API Key
 
-The **CAP API Key** system allows users and builders to securely access CAP services through a standardized authentication mechanism. Users can generate API Keys and import them into external clients (e.g., OpenClaw) to execute wallet, trading, and deployment operations.
+The **Wallet API Key** system allows users and builders to securely access CAP services through a standardized authentication mechanism. Users can generate API Keys and import them into external clients (e.g. OpenClaw, Hermes) to execute wallet, trading, and deployment operations.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-02 at 09.53.36.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 
@@ -19,9 +19,15 @@ The **CAP API Key** system allows users and builders to securely access CAP serv
 * Support for dApp builders
 * Programmatic access to wallet, trading, and deployment services
 
+{% hint style="danger" %}
+**Important Security Notice:**
+
+Your API Key grants full access to execute trades and transfer funds from your CAP Wallet. If your API Key is compromised, unauthorized parties may drain your wallet.
+{% endhint %}
+
 ## Generate an API Key
 
-1. Go to **Menu → API Key**
+1. Go to **Settings → API Key**
 2. Click **Generate New Key**
 3. Copy and store the key securely
 
@@ -38,7 +44,7 @@ Key rotation and deletion help maintain system security and operational safety.
 
 ## For Builders
 
-Builders can integrate CAP API Key into their dApps if they require:
+Builders can integrate Wallet API Key into their dApps if they require:
 
 * Wallet infrastructure
 * Trading execution
