@@ -65,7 +65,7 @@ After creating your key, here are a few ways to start using OpenCAP Gateway.
 **Base URL**
 
 ```
-https://gw.capminal.ai/v1
+https://gw.capminal.ai/api/inference/v1
 ```
 
 ### Use in Terminal
@@ -73,7 +73,7 @@ https://gw.capminal.ai/v1
 ```bash
 export OPENCAP_API_KEY="ocap_..."
 
-curl https://gw.capminal.ai/v1/chat/completions \
+curl https://gw.capminal.ai/api/inference/v1/chat/completions \
   -H "Authorization: Bearer $OPENCAP_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -91,7 +91,7 @@ curl https://gw.capminal.ai/v1/chat/completions \
   "models": {
     "providers": {
       "opencap": {
-        "baseUrl": "https://gw.capminal.ai/v1",
+        "baseUrl": "https://gw.capminal.ai/api/inference/v1",
         "api": "openai-completions",
         "key": "${OPENCAP_API_KEY}",
         "models": [
@@ -123,7 +123,7 @@ OPENCAP_API_KEY=ocap_...
 model:
   provider: custom:opencap-gw
   default: claude-opus-4.8
-  base_url: https://gw.capminal.ai/v1
+  base_url: https://gw.capminal.ai/api/inference/v1
   api_key: ${OPENCAP_API_KEY}
   api_mode: chat_completions
 ```

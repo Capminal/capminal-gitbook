@@ -27,7 +27,7 @@
     * [TWAP](capminal/product-features/automation/twap.md)
     * [DCA](capminal/product-features/automation/dca.md)
   * [Trading Fee](capminal/product-features/trading-fee.md)
-* [OpenCap](capminal/opencap/README.md)
+* [OpenCAP](capminal/opencap/README.md)
   * [Gateway](capminal/opencap/gateway.md)
   * [Skills](capminal/opencap/skills.md)
   * [cli](capminal/opencap/cli.md)
