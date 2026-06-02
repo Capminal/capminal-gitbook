@@ -40,7 +40,7 @@ flowchart LR
     CREDIT -->|funds usage| KEY
 
     KEY --> APPS{{AI Apps}}
-    APPS --> T[Terminal / curl]
+    APPS --> T[Terminal / curl / cli]
     APPS --> O[OpenClaw]
     APPS --> H[Hermes]
 
