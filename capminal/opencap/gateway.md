@@ -128,7 +128,7 @@ model:
   api_mode: chat_completions
 ```
 
-### Use in opencode
+### Use in OpenCode
 
 ```json
 // ~/.config/opencode/opencode.json
