@@ -128,6 +128,30 @@ model:
   api_mode: chat_completions
 ```
 
+### Use in opencode
+
+```json
+// ~/.config/opencode/opencode.json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "opencap": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "OpenCAP Gateway",
+      "options": {
+        "baseURL": "https://gw.capminal.ai/api/inference/v1",
+        "apiKey": "{env:OPENCAP_API_KEY}"
+      },
+      "models": {
+        "claude-opus-4.8": {
+          "name": "Claude Opus 4.8"
+        }
+      }
+    }
+  }
+}
+```
+
 ***
 
 {% hint style="warning" %}
