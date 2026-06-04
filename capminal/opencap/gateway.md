@@ -18,6 +18,10 @@ Instead of juggling separate accounts, billing, and SDKs for every provider, you
 **No subscription. No credit card.** Your daily inference usage is funded by your **staked CAPU** — not a monthly bill.
 {% endhint %}
 
+{% hint style="info" %}
+**Where does the free Inference Credit come from?** It's funded by **part of our revenue**, and we secure **bulk deals with our model providers** — so we can pass real inference capacity back to stakers at no extra cost.
+{% endhint %}
+
 ## How it works
 
 1. **Log in with your wallet.** Connect the wallet that holds your staked CAPU.
