@@ -12,6 +12,8 @@ https://gw.capminal.ai
 
 Instead of juggling separate accounts, billing, and SDKs for every provider, you point your app at one base URL, authenticate with one key, and route requests to whichever model you need.
 
+<figure><img src="../../.gitbook/assets/opencap_models.png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 **No subscription. No credit card.** Your daily inference usage is funded by your **staked CAPU** — not a monthly bill.
 {% endhint %}
@@ -22,6 +24,8 @@ Instead of juggling separate accounts, billing, and SDKs for every provider, you
 2. **Get daily Inference Credit.** Every wallet with **staked CAPU** is granted a daily allowance of Inference Credit — **$1 of inference usage per staked CAPU, every day**, renewed at 00:00 UTC. Don't have CAPU yet? See [Mint CAPU](../product-features/mint-capu.md) to learn how to get and stake it.
 3. **Create a key.** Generate an `OPENCAP_API_KEY` from the dashboard.
 4. **Start building.** Use the key with any OpenAI-compatible client, terminal, or agent framework — your usage draws down your daily Inference Credit automatically.
+
+<figure><img src="../../.gitbook/assets/opencap_dashboard.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Inference Credit is tied to your **staked** CAPU. Stake more CAPU → larger daily allowance. Credit resets every day and does **not** roll over.
@@ -157,3 +161,7 @@ model:
 {% hint style="warning" %}
 Keep your `OPENCAP_API_KEY` secret. Anyone with your key can spend your daily Inference Credit. You can revoke and regenerate keys at any time from the dashboard.
 {% endhint %}
+
+Open any key to see its live spend, usage, and budget — set a per-key daily cap, change its expiration, or revoke it on the spot.
+
+<figure><img src="../../.gitbook/assets/opencap_detail_key.png" alt=""><figcaption></figcaption></figure>
