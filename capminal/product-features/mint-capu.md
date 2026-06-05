@@ -189,6 +189,54 @@ You don't need the math. Here's what it means in practice with the **current liv
 
 ***
 
+## Arbitrage: how the market keeps CAPU in line
+
+CAPU isn't only **mintable** — it's also **tradable**. CAPU is seeded into **two liquidity pools on Aerodrome — CAPU/CAP and CAPU/WETH** — so anyone can **buy CAPU directly** and stake it for Inference Credit, instead of going the long way round (**buy CAP → stake to sCAP → mint CAPU**).
+
+That means the same staked CAPU can be obtained two ways:
+
+* **Mint it** along the bonding curve (Path B), or
+* **Buy it** on Aerodrome (Path A).
+
+Whenever an asset has two prices, arbitrage pulls them together. The bonding-curve **mint price** acts as the reference rate, and the **market price** floats around it:
+
+* **If CAPU trades _above_ the mint rate** (market price > mint price), minting is cheaper than buying. A user can **mint fresh CAPU on the curve and sell it into the pool**, capturing the spread. That sell pressure pushes the market price back **down** toward the mint rate.
+* **If CAPU trades _below_ the mint rate** (market price < mint price), buying is cheaper than minting. A user has two profitable moves, both of which add buy pressure and push the price back **up**:
+  * **Buy CAPU and stake it** — get the same **$1/day** of Inference Credit for less than it would cost to mint.
+  * **Buy CAPU and unstake it back to CAP** — redeeming cheap CAPU unlocks a quantity of CAP whose **USD value is larger than what you paid**, leaving you ahead.
+
+So rational users naturally close any gap, and the CAPU market price tracks the bonding-curve mint rate — while everyone still keeps a fast, no-cooldown way to get in and out by simply buying or selling on Aerodrome.
+
+```mermaid
+flowchart TD
+    MINT[📈 Bonding-curve mint price<br/>reference rate] -. compare .-> MKT{💧 CAPU market price<br/>on Aerodrome}
+
+    MKT -->|price ABOVE mint rate| HIGH[Mint CAPU on curve<br/>→ sell into the pool]
+    HIGH -->|sell pressure| DOWN[Price pushed DOWN]
+
+    MKT -->|price BELOW mint rate| BUY[Buy CAPU on Aerodrome]
+    BUY --> STAKE[Stake CAPU<br/>→ $1/day Inference Credit]
+    BUY --> REDEEM[Unstake & burn<br/>→ CAP worth more USD]
+    STAKE -->|buy pressure| UP[Price pushed UP]
+    REDEEM -->|buy pressure| UP
+
+    DOWN -.-> BAL([⚖️ CAPU price ≈ mint rate])
+    UP -.-> BAL
+
+    classDef ref fill:#dbeafe,stroke:#2563eb,color:#1e3a8a;
+    classDef market fill:#fef9c3,stroke:#ca8a04,color:#713f12;
+    classDef sell fill:#fee2e2,stroke:#dc2626,color:#7f1d1d;
+    classDef buy fill:#dcfce7,stroke:#16a34a,color:#14532d;
+    classDef bal fill:#ede9fe,stroke:#7c3aed,color:#4c1d95;
+    class MINT ref;
+    class MKT market;
+    class HIGH,DOWN sell;
+    class BUY,STAKE,REDEEM,UP buy;
+    class BAL bal;
+```
+
+***
+
 ## Common questions
 
 Do I lose my CAP when I mint CAPU?&#x20;
