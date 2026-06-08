@@ -203,7 +203,7 @@ Whenever an asset has two prices, arbitrage pulls them together. The bonding-cur
 * **If CAPU trades _above_ the mint rate** (market price > mint price), minting is cheaper than buying. A user can **mint fresh CAPU on the curve and sell it into the pool**, capturing the spread. That sell pressure pushes the market price back **down** toward the mint rate.
 * **If CAPU trades _below_ the mint rate** (market price < mint price), buying is cheaper than minting. A user has two profitable moves, both of which add buy pressure and push the price back **up**:
   * **Buy CAPU and stake it** — get the same **$1/day** of Inference Credit for less than it would cost to mint.
-  * **Buy CAPU and unstake it back to CAP** — redeeming cheap CAPU unlocks a quantity of CAP whose **USD value is larger than what you paid**, leaving you ahead.
+  * **Existing minters close their position cheaply** — anyone who previously minted CAPU (and locked sCAP as collateral) can buy CAPU on the market at below-mint-price, burn it, and unlock their original sCAP for less than the original mint cost. Their buying adds upward pressure on CAPU price. _(Note: this path requires a prior minting position — pure market buyers cannot burn CAPU to unlock CAP, as the contract tracks each user's own minted balance.)_
 
 So rational users naturally close any gap, and the CAPU market price tracks the bonding-curve mint rate — while everyone still keeps a fast, no-cooldown way to get in and out by simply buying or selling on Aerodrome.
 
@@ -216,9 +216,9 @@ flowchart TD
 
     MKT -->|price BELOW mint rate| BUY[Buy CAPU on Aerodrome]
     BUY --> STAKE[Stake CAPU<br/>→ $1/day Inference Credit]
-    BUY --> REDEEM[Unstake & burn<br/>→ CAP worth more USD]
+    MINTER[Existing minter<br/>with locked sCAP] --> BUYBACK[Buy market CAPU cheap<br/>→ burn → unlock sCAP]
     STAKE -->|buy pressure| UP[Price pushed UP]
-    REDEEM -->|buy pressure| UP
+    BUYBACK -->|buy pressure| UP
 
     DOWN -.-> BAL([⚖️ CAPU price ≈ mint rate])
     UP -.-> BAL
@@ -231,7 +231,7 @@ flowchart TD
     class MINT ref;
     class MKT market;
     class HIGH,DOWN sell;
-    class BUY,STAKE,REDEEM,UP buy;
+    class BUY,STAKE,MINTER,BUYBACK,UP buy;
     class BAL bal;
 ```
 
