@@ -58,14 +58,7 @@ flowchart TD
 
 <figure><img src="../../../.gitbook/assets/limit-orders-2.png" alt=""><figcaption></figcaption></figure>
 
-## Limit orders vs. TWAP vs. DCA
 
-|                | Limit Orders                    | TWAP                                  | DCA                                    |
-| -------------- | ------------------------------- | ------------------------------------- | -------------------------------------- |
-| **Trigger**    | Price reaches your target       | Time-based intervals                  | Frequency-based until expiry           |
-| **Best for**   | Getting a specific price        | Splitting a large order               | Building a position over time          |
-| **Duration**   | Open until filled or cancelled  | Minutes to days                       | Days to months                         |
-| **Execution**  | One trade at target price       | Multiple chunks over time window      | Multiple recurring buys                |
 
 ## Perfect for
 
