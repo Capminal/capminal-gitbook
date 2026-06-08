@@ -61,7 +61,7 @@ flowchart TD
 * **Customizable intervals** — from 10 minutes to 1 day between chunks
 * **Built-in price protection** — configurable allowable slippage per chunk
 
-<figure><img src="../../.gitbook/assets/twap-ui.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/twap-ui.png" alt=""><figcaption></figcaption></figure>
 
 ## Perfect for
 

@@ -54,7 +54,7 @@ flowchart TD
     class CHECK,DONE done;
 ```
 
-<figure><img src="../../.gitbook/assets/dca-ui.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dca-ui.png" alt=""><figcaption></figcaption></figure>
 
 ## Real-time PnL tracking
 

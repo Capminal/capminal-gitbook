@@ -46,7 +46,7 @@ flowchart TD
     class DONE done;
 ```
 
-<figure><img src="../../.gitbook/assets/limit-orders-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/limit-orders-1.png" alt=""><figcaption></figcaption></figure>
 
 ## Why use limit orders?
 
@@ -56,7 +56,7 @@ flowchart TD
 * **Works with any Base token** — CAP, VIRTUAL, ETH, and more
 * **Partial fills** — if the market only hits your price partially, the rest stays open
 
-<figure><img src="../../.gitbook/assets/limit-orders-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/limit-orders-2.png" alt=""><figcaption></figcaption></figure>
 
 ## Limit orders vs. TWAP vs. DCA
 
