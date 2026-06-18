@@ -6,6 +6,10 @@ description: >-
 
 # Agent Skills
 
+{% hint style="success" %}
+**Agentic Wallet:** The first wallet that can reason, plan and execute transactions autonomously.
+{% endhint %}
+
 **Skills** let Capminal's **agentic wallet (Cap Wallet)** expand and interact **infinitely** with smart contracts and external APIs. Each skill is a modular ability that teaches an agent a new capability — from transferring tokens and swapping assets to reading and writing any on-chain contract.
 
 This is what turns Cap Wallet from a passive key store into a **true agentic wallet**: an autonomous actor that can reason about a goal, pick the right skill, and execute it on-chain or against any API — without a human signing every step.
