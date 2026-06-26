@@ -66,6 +66,47 @@ Lock **CAP → sCAP → CAPU** (or simply buy CAPU), stake it to earn daily **In
 
 ***
 
+## Two ways to fund your inference
+
+You don't have to choose just one. Both sources fund the same `OPENCAP_API_KEY` — the gateway draws on whatever you have.
+
+| Funding source | What it is | Best for |
+| -------------- | ---------- | -------- |
+| **Inference Credit from CAPU Staking** | A **daily allowance** — $1/day of inference per staked CAPU, renewed at 00:00 UTC, non-rolling. | Steady, recurring usage you want to cover with capital you already hold. See [Mint CAPU](../product-features/mint-capu.md). |
+| **USDC Top-Up** | A **prepaid balance** you load with USDC. It doesn't reset — you spend it down until it runs out. | One-off bursts, spikes above your daily allowance, or anyone who'd rather just pay as they go. |
+
+Your daily staking Credit is used first; once it's exhausted, the gateway falls back to your topped-up USDC balance. Stake for the everyday baseline, top up for the headroom.
+
+### Top-Up Inference with USDC
+
+Want more inference without staking — or just a buffer for heavy days? **Top up your balance directly with USDC**, with payment powered by **MoonPay**.
+
+1. **Open the Top-Up card** on your dashboard and hit **Top-Up USDC**.
+2. **Pay with USDC** — or any supported asset, which is **auto-swapped to USDC for you, with gas covered**.
+3. **Get credited automatically** once the on-chain transaction confirms. The balance shows up on your dashboard — no manual steps.
+4. **Spend it anytime.** Unlike daily Credit, your topped-up balance **does not reset** — it carries over until you use it.
+
+<figure><img src="../../.gitbook/assets/opencap_topup.png" alt=""><figcaption><p>The Top-Up · USDC card on your dashboard, alongside your CAPU staking quota.</p></figcaption></figure>
+
+#### Two ways to pay
+
+When you open the deposit panel, you can choose how to send your funds:
+
+* **Transfer Manually (QR)** — scan the QR or copy the address and send from any wallet or exchange. Works with USDC and other supported assets. No limit · instant.
+* **Connect Wallet** — connect a wallet (MetaMask, Coinbase, WalletConnect, and more) and pay in a couple of clicks, right from the browser. No limit · instant.
+
+<figure><img src="../../.gitbook/assets/opencap_topup_methods.png" alt=""><figcaption><p>Pick a deposit method — Transfer Manually by QR, or Connect Wallet to pay directly.</p></figcaption></figure>
+
+{% hint style="info" %}
+**Powered by MoonPay & Helio.** Checkout runs inside the dashboard through the official MoonPay widget. Your deposit is credited **server-side after the on-chain transaction is confirmed**, so closing the window mid-flow never loses a confirmed payment.
+{% endhint %}
+
+{% hint style="success" %}
+**Small deposits aren't lost.** If you send less than the minimum, the amount is **parked** and activates automatically once your total reaches the minimum — you'll see the progress on the Top-Up card.
+{% endhint %}
+
+***
+
 ## Quick Start
 
 After creating your key, here are a few ways to start using OpenCAP Gateway.
