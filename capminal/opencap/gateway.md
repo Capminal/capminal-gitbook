@@ -132,6 +132,25 @@ curl https://gw.capminal.ai/api/inference/v1/chat/completions \
   }'
 ```
 
+### Pin a provider (optional)
+
+For a **combo model**, add a provider allow-list (a gateway id or an array) to route only to those gateways. Omit it and the combo picks the cheapest. Unknown providers are ignored; if none match you get `400 unsupported_provider`.
+
+```bash
+curl https://gw.capminal.ai/api/inference/v1/chat/completions \
+  -H "Authorization: Bearer $OPENCAP_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "glm-5.2",
+    "provider": ["surplus", "virtuals"],
+    "messages": [{"role": "user", "content": "Hello from OpenCAP"}]
+  }'
+```
+
+{% hint style="info" %}
+**Supported providers:** `openrouter`, `surplus`, `virtuals`, `venice-ai`.
+{% endhint %}
+
 ### Use in OpenClaw
 
 ```json
