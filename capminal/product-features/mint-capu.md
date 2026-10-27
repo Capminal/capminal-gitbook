@@ -2,7 +2,29 @@
 description: Earn Perpetual AI Compute
 ---
 
-# Mint CAPU
+# Mint CAPU (PAUSED)
+
+{% hint style="danger" %}
+**CAPU minting, CAPU staking and the $1/day Inference Credit per staked CAPU are paused.**
+
+The daily Inference Credit runs on a discounted inference supply, and that supply has run into problems on the provider side. We haven't yet found a cost structure that keeps the program sustainable, so we're pausing it rather than running something that breaks later.
+
+Over 6 months, CAPU staking delivered **$46.8k of inference** to Capminal users.
+
+**What's paused:**
+
+* Minting new CAPU
+* Staking CAPU
+* The $1/day Inference Credit per staked CAPU
+
+**What still works:**
+
+* **Exiting at your own rate.** Unstake CAPU (1-day cooldown) → Burn CAPU to unlock your sCAP → Unstake sCAP (7-day unbonding) → receive your CAP. Burning still returns sCAP at your original lock ratio. See [Burning: your rate, your ceiling](mint-capu.md#burning-your-rate-your-ceiling).
+* **CAP staking and CAP rewards.** Stake CAP, earn CAP rewards, claim anytime: same as before, 100% to stakers.
+* **The OpenCAP LLM Gateway.** Top up USDC on [OpenCAP](../opencap.md) and keep using the gateway as normal. Only the daily CAPU allowance is switched off.
+
+The rest of this page describes how the CAP / sCAP / CAPU system works and is kept for reference. We'll post an update if CAPU Inference Credit resumes.
+{% endhint %}
 
 {% hint style="info" %}
 **CAPU** is the compute asset of the Capminal. Holding **staked CAPU** gives you a daily allowance of Inference Credit on [OpenCAP](../opencap.md), **$1 of inference usage per CAPU, every day,** without ever selling your CAP.

@@ -38,7 +38,7 @@ Your AI Terminal with Perpetual AI Compute, DeFAI Agent, and a Smart Tokenizatio
 
 Powered by Captain Dackie, our AI-driven terminal delivers lightning-fast swaps, secure portfolio control, seamless token deployment and real-time DeFi insights. Trade smarter, win bigger.
 
-At its core is **CAPU**, Capminal's compute asset. Stake CAP to mint CAPU, then stake CAPU to unlock a daily allowance of AI Credit — $1 of AI usage per CAPU, every day — so you get perpetual AI compute without ever selling your capital.
+At its core is **CAPU**, Capminal's compute asset. Stake CAP to mint CAPU, then stake CAPU to unlock a daily allowance of AI Credit — $1 of AI usage per CAPU, every day — so you get perpetual AI compute without ever selling your capital. _(CAPU minting, staking and the daily AI Credit are currently paused — see [Mint CAPU (PAUSED)](../capminal/product-features/mint-capu.md).)_
 
 Website: [https://capminal.ai/](https://capminal.ai/)
 

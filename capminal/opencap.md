@@ -14,6 +14,10 @@ Instead of juggling separate accounts, billing, and SDKs for every provider, you
 
 <figure><img src="../.gitbook/assets/opencap_models.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="warning" %}
+**The daily Inference Credit from staked CAPU is paused.** The OpenCAP LLM Gateway itself is fully live: top up USDC (see [Top-Up Inference with USDC](opencap.md#top-up-inference-with-usdc)) and keep using your `OPENCAP_API_KEY` as normal. See [Mint CAPU (PAUSED)](product-features/mint-capu.md) for details.
+{% endhint %}
+
 {% hint style="info" %}
 **No subscription. No credit card.** Your daily inference usage is funded by your **staked CAPU** — not a monthly bill.
 {% endhint %}
@@ -25,7 +29,7 @@ Instead of juggling separate accounts, billing, and SDKs for every provider, you
 ## How it works
 
 1. **Log in with your wallet.** Connect the wallet that holds your staked CAPU.
-2. **Get daily Inference Credit.** Every wallet with **staked CAPU** is granted a daily allowance of Inference Credit — **$1 of inference usage per staked CAPU, every day**, renewed at 00:00 UTC. Don't have CAPU yet? See [Mint CAPU](product-features/mint-capu.md) to learn how to get and stake it.
+2. **Get daily Inference Credit** _(paused — top up USDC instead)_. Every wallet with **staked CAPU** is granted a daily allowance of Inference Credit — **$1 of inference usage per staked CAPU, every day**, renewed at 00:00 UTC. Don't have CAPU yet? See [Mint CAPU](product-features/mint-capu.md) to learn how to get and stake it.
 3. **Create a key.** Generate an `OPENCAP_API_KEY` from the dashboard.
 4. **Start building.** Use the key with any OpenAI-compatible client, terminal, or agent framework — your usage draws down your daily Inference Credit automatically.
 
@@ -72,7 +76,7 @@ You don't have to choose just one. Both sources fund the same `OPENCAP_API_KEY` 
 
 | Funding source | What it is | Best for |
 | -------------- | ---------- | -------- |
-| **Inference Credit from CAPU Staking** | A **daily allowance** — $1/day of inference per staked CAPU, renewed at 00:00 UTC, non-rolling. | Steady, recurring usage you want to cover with capital you already hold. See [Mint CAPU](product-features/mint-capu.md). |
+| **Inference Credit from CAPU Staking** _(paused)_ | A **daily allowance** — $1/day of inference per staked CAPU, renewed at 00:00 UTC, non-rolling. | Steady, recurring usage you want to cover with capital you already hold. See [Mint CAPU](product-features/mint-capu.md). |
 | **USDC Top-Up** | A **prepaid balance** you load with USDC. It doesn't reset — you spend it down until it runs out. | One-off bursts, spikes above your daily allowance, or anyone who'd rather just pay as they go. |
 
 Your daily staking Credit is used first; once it's exhausted, the gateway falls back to your topped-up USDC balance. Stake for the everyday baseline, top up for the headroom.
